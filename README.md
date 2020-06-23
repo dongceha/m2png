@@ -11,75 +11,7 @@
 
 > Awesome node module
 
-## Installation
-
-```shell
-$ npm install md2png
-
-# or yarn
-$ yarn add md2png
-```
-
-## Usage
-
-<!-- TODO: Introduction of API use -->
-
-```javascript
-const md2Png = require('md2png')
-const result = md2Png('zce')
-// result => 'zce@zce.me'
-```
-
-## API
-
-<!-- TODO: Introduction of API -->
-
-### md2Png(name[, options])
-
-#### name
-
-- Type: `string`
-- Details: name string
-
-#### options
-
-##### host
-
-- Type: `string`
-- Details: host string
-- Default: `'zce.me'`
-
-## CLI Usage
-
-<!-- TODO: Introduction of CLI -->
-
-```shell
-$ yarn global add md2png
-
-# or npm
-$ npm install md2png -g
-```
-
-```shell
-$ md2png --help
-
-  Usage: md2png <input>
-
-  Options:
-
-    -V, --version  output the version number
-    -H, --host     Email host
-    -h, --help     output usage information
-```
-
-## Contributing
-
-1. **Fork** it on GitHub!
-2. **Clone** the fork to your own machine.
-3. **Checkout** your feature branch: `git checkout -b my-awesome-feature`
-4. **Commit** your changes to your own branch: `git commit -am 'Add some feature'`
-5. **Push** your work back up to your fork: `git push -u origin my-awesome-feature`
-6. Submit a **Pull Request** so that we can review your changes.
+>  md2png ./README.md --output 123.png
 
 > **NOTE**: Be sure to merge the latest from "upstream" before making a pull request!
 
