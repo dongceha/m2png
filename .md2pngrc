@@ -1,0 +1,19 @@
+template: > <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+        .markdown-body {
+            width: 90%;
+            max-width: 700px;
+            margin: 30px auto;
+        }
+        </style>
+        <link rel="stylesheet" href="https://unpkg.com/github-markdown-css@4.0.0/github-markdown.css">
+    </head>
+    <body class="markdown-body">
+    ${fragment}
+    </body>
+</html>
